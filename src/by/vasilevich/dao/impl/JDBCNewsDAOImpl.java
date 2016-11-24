@@ -152,7 +152,7 @@ public class JDBCNewsDAOImpl implements INewsDAO {
             news.setFullText(resultSet.getString(4));
             news.setCreationDate(resultSet.getDate(5));
             news.setModificationDate(resultSet.getDate(6));
-        	
+        	newsList.add(news);
            
         }
         return newsList;

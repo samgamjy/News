@@ -30,6 +30,12 @@ public enum Commands {
 		public ICommand getCommand() {
 			return new CommandItemNews();
 		}
+	},
+	LIST_NEWS {
+		@Override
+		public ICommand getCommand() {
+			return new CommandListNews();
+		}
 	}
 	;
 

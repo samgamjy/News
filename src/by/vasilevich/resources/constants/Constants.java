@@ -52,7 +52,7 @@ public class Constants {
     public static final String SQL_GET_ALL_NEWS = "SELECT * FROM news";
     public static final String SQL_GET_COMMENTATOR = "SELECT * FROM commentators WHERE (user_id = ?)";
     public static final String SQL_GET_ALL_COMMENTATORS = "SELECT * FROM commentators";
-    public static final String SQL_GET_LAST_10_NEWS = "SELECT * FROM news ORDERED BY id DESC LIMIT 10";
+    public static final String SQL_GET_LAST_10_NEWS = "SELECT * FROM news ORDER BY id DESC LIMIT 10";
 //    public static final String SQL_GET_ALL_NEWS_BY_AUTHOR = "SELECT * FROM news WHERE ()";
     
     // DELETE SQL FUNCTIONS

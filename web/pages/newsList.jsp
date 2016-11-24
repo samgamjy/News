@@ -14,6 +14,7 @@
 <body>
     <%@include file="headerMenu.jsp"%>
     <fieldset>
+        <table>
         <legend><fmt:message key="newsList.news.title"/></legend>
         <c:forEach var="news" items="${newsBeanList}">
             <tr>
@@ -21,6 +22,7 @@
                 <td>${news.shortText}</td>
             </tr>
         </c:forEach>
+        </table>
     </fieldset>
 </body>
 </html>
